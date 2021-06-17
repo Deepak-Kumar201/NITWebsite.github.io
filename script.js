@@ -22,12 +22,14 @@ chge=-0.05;
 op=1;
 nitImg=document.getElementById("NITPIC");
 currSrc=0;
-nitImg.addEventListener('click',function(){
+function chgimg(){
     currSrc+=1;
     currSrc=currSrc%4;
     nitImg.src=imageAddres[currSrc];
-})
+}
+nitImg.addEventListener('click',chgimg)
 menucover=document.getElementById('menucover');
+setInterval(chgimg,2000);
 //menu js
 
 homeImg=document.getElementById("homeImg");
@@ -190,3 +192,4 @@ function animate() {
     }
 }
 animate();
+
