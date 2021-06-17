@@ -32,6 +32,13 @@ menucover=document.getElementById('menucover');
 setInterval(chgimg,2000);
 //menu js
 
+window.addEventListener('scroll',function(e) {
+    body=document.getElementById("body");
+    menucover.style.top=window.scrollY+'px';
+    menucover.style.left=0+'px';
+})
+
+
 homeImg=document.getElementById("homeImg");
 home=document.getElementById("home");
 homeImg.addEventListener("click",function(){

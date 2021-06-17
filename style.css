@@ -94,7 +94,7 @@ body {
 
 .info #div {
     font-size: 20px;
-    width: 35vw;
+    width: 33vw;
     color: white;
     overflow-y: scroll;
     height:50vh;
@@ -212,6 +212,6 @@ ul a{
         width:95%;
     }
     .ListItem{
-        left:23vw;
+        left:15vw;
     }
   }

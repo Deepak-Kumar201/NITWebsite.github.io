@@ -6,6 +6,10 @@
     margin: auto;
     position: relative;
     top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding:50px;
+    justify-content: space-evenly;
     border-radius: 4px;
 }
 

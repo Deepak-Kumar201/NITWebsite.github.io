@@ -34,18 +34,13 @@
     font-size: 30px;
     position: absolute;
     z-index: 1;
-    background: #F2E85C;
     color: #732C02;
     padding: 20px;
-    width: 38vw;
-    wrap: break-word;
-    left: 48vw;
-    height: 44vh;
     font-family: 'Dancing Script', cursive;
 }
 
 #heading {
-    background: #D9B54A;
+    background: #369ba1;
     color: white;
     width: 100%;
     height: 15vh;
@@ -63,4 +58,37 @@
 
 .container {
     margin-top: 20vh;
+}
+.box1{
+    background-image: url('Mission/technical.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding:20px;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    vertical-align: middle;
+    color:white;
+    text-shadow: 8px 8px 10px black;
+    line-height: 12.5vh;
+    overflow-y:scroll;
+
+
+}
+
+.box2{
+    background-image: url('Mission/inovation.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding:20px;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    vertical-align: middle;
+    color:white;
+    text-shadow: 8px 8px 10px black;
+    line-height: 10vh;
+    overflow-y:scroll;
+}
+
+::-webkit-scrollbar{
+    width:0px;
 }
