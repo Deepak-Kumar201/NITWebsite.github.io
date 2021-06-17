@@ -17,7 +17,7 @@
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
     scroll-margin: 10px;
 }
 
